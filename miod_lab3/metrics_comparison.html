@@ -1,0 +1,164 @@
+<style type="text/css">
+#T_8415b_row0_col0, #T_8415b_row0_col3, #T_8415b_row2_col1, #T_8415b_row2_col2, #T_8415b_row3_col1, #T_8415b_row4_col0, #T_8415b_row4_col3, #T_8415b_row6_col0, #T_8415b_row6_col3, #T_8415b_row8_col0, #T_8415b_row8_col3, #T_8415b_row10_col1, #T_8415b_row10_col2, #T_8415b_row11_col1, #T_8415b_row12_col1, #T_8415b_row12_col2, #T_8415b_row13_col1, #T_8415b_row14_col1, #T_8415b_row14_col2, #T_8415b_row15_col1 {
+  background-color: #006837;
+  color: #f1f1f1;
+}
+#T_8415b_row0_col1, #T_8415b_row0_col2, #T_8415b_row1_col1, #T_8415b_row1_col2, #T_8415b_row3_col0, #T_8415b_row3_col3, #T_8415b_row4_col1, #T_8415b_row4_col2, #T_8415b_row5_col1, #T_8415b_row5_col2, #T_8415b_row6_col1, #T_8415b_row6_col2, #T_8415b_row7_col1, #T_8415b_row7_col2, #T_8415b_row8_col1, #T_8415b_row8_col2, #T_8415b_row9_col1, #T_8415b_row9_col2, #T_8415b_row11_col0, #T_8415b_row11_col3, #T_8415b_row13_col0, #T_8415b_row13_col3, #T_8415b_row15_col0, #T_8415b_row15_col3 {
+  background-color: #a50026;
+  color: #f1f1f1;
+}
+#T_8415b_row1_col0, #T_8415b_row1_col3, #T_8415b_row5_col0, #T_8415b_row5_col3, #T_8415b_row7_col0, #T_8415b_row7_col3, #T_8415b_row9_col0, #T_8415b_row9_col3 {
+  background-color: #026c39;
+  color: #f1f1f1;
+}
+#T_8415b_row2_col0, #T_8415b_row2_col3, #T_8415b_row10_col0, #T_8415b_row10_col3, #T_8415b_row12_col0, #T_8415b_row12_col3, #T_8415b_row14_col0, #T_8415b_row14_col3 {
+  background-color: #a70226;
+  color: #f1f1f1;
+}
+#T_8415b_row3_col2, #T_8415b_row11_col2, #T_8415b_row13_col2, #T_8415b_row15_col2 {
+  background-color: #036e3a;
+  color: #f1f1f1;
+}
+</style>
+<table id="T_8415b">
+  <thead>
+    <tr>
+      <th class="blank" >&nbsp;</th>
+      <th class="blank level0" >&nbsp;</th>
+      <th id="T_8415b_level0_col0" class="col_heading level0 col0" >score_R2</th>
+      <th id="T_8415b_level0_col1" class="col_heading level0 col1" >MAE</th>
+      <th id="T_8415b_level0_col2" class="col_heading level0 col2" >MSLE</th>
+      <th id="T_8415b_level0_col3" class="col_heading level0 col3" >D2_absolute_error</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" >model</th>
+      <th class="index_name level1" >dataset</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+      <th class="blank col3" >&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th id="T_8415b_level0_row0" class="row_heading level0 row0" rowspan="2">LinearRegression</th>
+      <th id="T_8415b_level1_row0" class="row_heading level1 row0" >train</th>
+      <td id="T_8415b_row0_col0" class="data row0 col0" >0.931278</td>
+      <td id="T_8415b_row0_col1" class="data row0 col1" >1.187720</td>
+      <td id="T_8415b_row0_col2" class="data row0 col2" >0.016067</td>
+      <td id="T_8415b_row0_col3" class="data row0 col3" >0.758055</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row1" class="row_heading level1 row1" >test</th>
+      <td id="T_8415b_row1_col0" class="data row1 col0" >0.930889</td>
+      <td id="T_8415b_row1_col1" class="data row1 col1" >1.188847</td>
+      <td id="T_8415b_row1_col2" class="data row1 col2" >0.016071</td>
+      <td id="T_8415b_row1_col3" class="data row1 col3" >0.757372</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row2" class="row_heading level0 row2" rowspan="2">LinearRegression + PowerTransformer</th>
+      <th id="T_8415b_level1_row2" class="row_heading level1 row2" >train</th>
+      <td id="T_8415b_row2_col0" class="data row2 col0" >0.887896</td>
+      <td id="T_8415b_row2_col1" class="data row2 col1" >1.567566</td>
+      <td id="T_8415b_row2_col2" class="data row2 col2" >0.080101</td>
+      <td id="T_8415b_row2_col3" class="data row2 col3" >0.680678</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row3" class="row_heading level1 row3" >test</th>
+      <td id="T_8415b_row3_col0" class="data row3 col0" >0.887603</td>
+      <td id="T_8415b_row3_col1" class="data row3 col1" >1.566884</td>
+      <td id="T_8415b_row3_col2" class="data row3 col2" >0.079321</td>
+      <td id="T_8415b_row3_col3" class="data row3 col3" >0.680219</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row4" class="row_heading level0 row4" rowspan="2">Ridge alpha=1.0</th>
+      <th id="T_8415b_level1_row4" class="row_heading level1 row4" >train</th>
+      <td id="T_8415b_row4_col0" class="data row4 col0" >0.931278</td>
+      <td id="T_8415b_row4_col1" class="data row4 col1" >1.187720</td>
+      <td id="T_8415b_row4_col2" class="data row4 col2" >0.016067</td>
+      <td id="T_8415b_row4_col3" class="data row4 col3" >0.758055</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row5" class="row_heading level1 row5" >test</th>
+      <td id="T_8415b_row5_col0" class="data row5 col0" >0.930889</td>
+      <td id="T_8415b_row5_col1" class="data row5 col1" >1.188847</td>
+      <td id="T_8415b_row5_col2" class="data row5 col2" >0.016071</td>
+      <td id="T_8415b_row5_col3" class="data row5 col3" >0.757372</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row6" class="row_heading level0 row6" rowspan="2">Ridge alpha=0.1</th>
+      <th id="T_8415b_level1_row6" class="row_heading level1 row6" >train</th>
+      <td id="T_8415b_row6_col0" class="data row6 col0" >0.931278</td>
+      <td id="T_8415b_row6_col1" class="data row6 col1" >1.187720</td>
+      <td id="T_8415b_row6_col2" class="data row6 col2" >0.016067</td>
+      <td id="T_8415b_row6_col3" class="data row6 col3" >0.758055</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row7" class="row_heading level1 row7" >test</th>
+      <td id="T_8415b_row7_col0" class="data row7 col0" >0.930889</td>
+      <td id="T_8415b_row7_col1" class="data row7 col1" >1.188847</td>
+      <td id="T_8415b_row7_col2" class="data row7 col2" >0.016071</td>
+      <td id="T_8415b_row7_col3" class="data row7 col3" >0.757372</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row8" class="row_heading level0 row8" rowspan="2">Ridge alpha=10.0</th>
+      <th id="T_8415b_level1_row8" class="row_heading level1 row8" >train</th>
+      <td id="T_8415b_row8_col0" class="data row8 col0" >0.931278</td>
+      <td id="T_8415b_row8_col1" class="data row8 col1" >1.187720</td>
+      <td id="T_8415b_row8_col2" class="data row8 col2" >0.016067</td>
+      <td id="T_8415b_row8_col3" class="data row8 col3" >0.758055</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row9" class="row_heading level1 row9" >test</th>
+      <td id="T_8415b_row9_col0" class="data row9 col0" >0.930889</td>
+      <td id="T_8415b_row9_col1" class="data row9 col1" >1.188847</td>
+      <td id="T_8415b_row9_col2" class="data row9 col2" >0.016071</td>
+      <td id="T_8415b_row9_col3" class="data row9 col3" >0.757372</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row10" class="row_heading level0 row10" rowspan="2">Ridge + PT alpha=1.0</th>
+      <th id="T_8415b_level1_row10" class="row_heading level1 row10" >train</th>
+      <td id="T_8415b_row10_col0" class="data row10 col0" >0.887896</td>
+      <td id="T_8415b_row10_col1" class="data row10 col1" >1.567563</td>
+      <td id="T_8415b_row10_col2" class="data row10 col2" >0.080102</td>
+      <td id="T_8415b_row10_col3" class="data row10 col3" >0.680679</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row11" class="row_heading level1 row11" >test</th>
+      <td id="T_8415b_row11_col0" class="data row11 col0" >0.887603</td>
+      <td id="T_8415b_row11_col1" class="data row11 col1" >1.566881</td>
+      <td id="T_8415b_row11_col2" class="data row11 col2" >0.079322</td>
+      <td id="T_8415b_row11_col3" class="data row11 col3" >0.680220</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row12" class="row_heading level0 row12" rowspan="2">Ridge + PT alpha=0.1</th>
+      <th id="T_8415b_level1_row12" class="row_heading level1 row12" >train</th>
+      <td id="T_8415b_row12_col0" class="data row12 col0" >0.887896</td>
+      <td id="T_8415b_row12_col1" class="data row12 col1" >1.567565</td>
+      <td id="T_8415b_row12_col2" class="data row12 col2" >0.080101</td>
+      <td id="T_8415b_row12_col3" class="data row12 col3" >0.680678</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row13" class="row_heading level1 row13" >test</th>
+      <td id="T_8415b_row13_col0" class="data row13 col0" >0.887603</td>
+      <td id="T_8415b_row13_col1" class="data row13 col1" >1.566884</td>
+      <td id="T_8415b_row13_col2" class="data row13 col2" >0.079321</td>
+      <td id="T_8415b_row13_col3" class="data row13 col3" >0.680219</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level0_row14" class="row_heading level0 row14" rowspan="2">Ridge + PT alpha=10.0</th>
+      <th id="T_8415b_level1_row14" class="row_heading level1 row14" >train</th>
+      <td id="T_8415b_row14_col0" class="data row14 col0" >0.887896</td>
+      <td id="T_8415b_row14_col1" class="data row14 col1" >1.567537</td>
+      <td id="T_8415b_row14_col2" class="data row14 col2" >0.080110</td>
+      <td id="T_8415b_row14_col3" class="data row14 col3" >0.680684</td>
+    </tr>
+    <tr>
+      <th id="T_8415b_level1_row15" class="row_heading level1 row15" >test</th>
+      <td id="T_8415b_row15_col0" class="data row15 col0" >0.887603</td>
+      <td id="T_8415b_row15_col1" class="data row15 col1" >1.566853</td>
+      <td id="T_8415b_row15_col2" class="data row15 col2" >0.079330</td>
+      <td id="T_8415b_row15_col3" class="data row15 col3" >0.680226</td>
+    </tr>
+  </tbody>
+</table>
